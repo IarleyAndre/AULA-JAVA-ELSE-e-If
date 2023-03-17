@@ -1,0 +1,21 @@
+# AULA-JAVA-ELSE-e-If
+
+
+import java.util.Scanner;
+
+public class fedf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("imforme um numero :");
+		int num1 = sc.nextInt();
+		
+		if (num1 % 2 == 0 ) {
+		 System.out.println(num1 +" e par");
+		
+		}else {		
+		 System.out.println(num1 + " e impar");}
+		 
